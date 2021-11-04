@@ -1,0 +1,81 @@
+h1 {
+  display: block;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Oleo Script", cursive;
+}
+
+.container-imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  margin: 10px auto;
+  max-width: 1366px;
+}
+
+.form-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 100%;
+  max-width: 1366px;
+}
+
+.form-search input {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #808080;
+  max-width: 1024px;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.form-search input,
+.form-search button {
+  margin: 10px;
+}
+
+.btn-style {
+  background-color: #1f1f1f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-style:hover {
+  background-color: #c13584;
+}
+/*# sourceMappingURL=main.css.map */
