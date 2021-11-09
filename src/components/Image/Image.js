@@ -5,6 +5,7 @@ export default function Image(props) {
     let title = document.getElementById("title");
     let formsearch = document.getElementById("form-search");
     let images = document.getElementsByClassName("img-block");
+    let infotext = document.getElementsByClassName("info-text")[0];
     function fullscreenImage(id, reference) {
         let imgblock = document.getElementById(id);
         let imgcontainer = document.getElementById(reference);
@@ -16,6 +17,7 @@ export default function Image(props) {
         imgcontainer.getElementsByClassName("closeMenu")[0].style.display = "block";
         title.style.filter = "blur(7.5px)";
         formsearch.style.filter = "blur(7.5px)";
+        infotext.style.filter = "blur(7.5px)";
         imgblock.classList.remove("block-hide");
         imgblock.classList.add("block-active");
         imgcontainer.classList.remove("hide-container");
@@ -31,6 +33,7 @@ export default function Image(props) {
         imgcontainer.getElementsByClassName("closeMenu")[0].style.display = "none";
         title.style.filter = "blur(0px)";
         formsearch.style.filter = "blur(0px)";
+        infotext.style.filter = "blur(0px)";
         imgblock.classList.replace("block-active", "block-hide");
         imgcontainer.classList.replace("active-container", "hide-container");
     }
