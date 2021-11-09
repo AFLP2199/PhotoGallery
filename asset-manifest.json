@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/PhotoGallery/static/css/main.a648ce97.chunk.css",
-    "main.js": "/PhotoGallery/static/js/main.a617846b.chunk.js",
-    "main.js.map": "/PhotoGallery/static/js/main.a617846b.chunk.js.map",
+    "main.css": "/PhotoGallery/static/css/main.fd26e2c7.chunk.css",
+    "main.js": "/PhotoGallery/static/js/main.d3a0d3ad.chunk.js",
+    "main.js.map": "/PhotoGallery/static/js/main.d3a0d3ad.chunk.js.map",
     "runtime-main.js": "/PhotoGallery/static/js/runtime-main.c1052b5b.js",
     "runtime-main.js.map": "/PhotoGallery/static/js/runtime-main.c1052b5b.js.map",
     "static/css/2.8c32df17.chunk.css": "/PhotoGallery/static/css/2.8c32df17.chunk.css",
-    "static/js/2.bcd20c5c.chunk.js": "/PhotoGallery/static/js/2.bcd20c5c.chunk.js",
-    "static/js/2.bcd20c5c.chunk.js.map": "/PhotoGallery/static/js/2.bcd20c5c.chunk.js.map",
+    "static/js/2.cd448564.chunk.js": "/PhotoGallery/static/js/2.cd448564.chunk.js",
+    "static/js/2.cd448564.chunk.js.map": "/PhotoGallery/static/js/2.cd448564.chunk.js.map",
     "index.html": "/PhotoGallery/index.html",
     "static/css/2.8c32df17.chunk.css.map": "/PhotoGallery/static/css/2.8c32df17.chunk.css.map",
-    "static/css/main.a648ce97.chunk.css.map": "/PhotoGallery/static/css/main.a648ce97.chunk.css.map",
-    "static/js/2.bcd20c5c.chunk.js.LICENSE.txt": "/PhotoGallery/static/js/2.bcd20c5c.chunk.js.LICENSE.txt",
+    "static/css/main.fd26e2c7.chunk.css.map": "/PhotoGallery/static/css/main.fd26e2c7.chunk.css.map",
+    "static/js/2.cd448564.chunk.js.LICENSE.txt": "/PhotoGallery/static/js/2.cd448564.chunk.js.LICENSE.txt",
     "static/media/App.css": "/PhotoGallery/static/media/fa-solid-900.eeccf4f6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.c1052b5b.js",
     "static/css/2.8c32df17.chunk.css",
-    "static/js/2.bcd20c5c.chunk.js",
-    "static/css/main.a648ce97.chunk.css",
-    "static/js/main.a617846b.chunk.js"
+    "static/js/2.cd448564.chunk.js",
+    "static/css/main.fd26e2c7.chunk.css",
+    "static/js/main.d3a0d3ad.chunk.js"
   ]
 }
