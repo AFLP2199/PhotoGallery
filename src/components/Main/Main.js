@@ -32,16 +32,18 @@ export default function Main() {
 
     return (
         <React.Fragment>
-            <h1>Photo gallery</h1>
-            <form className="form-search" onSubmit={submit}>
+            <h1 id="title">Photo gallery</h1>
+            <form id="form-search" onSubmit={submit}>
                 <input placeholder="Search a term" id="searchText" type="text" onChange={getInputValue}></input>
                 <button type="button" className="btn-style" onClick={handleSubmit}>
                     Search
                 </button>
             </form>
-            <div className="container-imgs">
+            <div id="container-imgs">
                 {output.map((item, index) => {
-                    return <Image key={index} id={item.id} img={item.largeImageURL} likes={item.likes} views={item.views} downloads={item.downloads} tags={item.tags} user={item.user} />;
+                    return (
+                        <Image key={index} reference={index} id={item.id} img={item.largeImageURL} likes={item.likes} views={item.views} downloads={item.downloads} tags={item.tags} user={item.user} />
+                    );
                 })}
             </div>
         </React.Fragment>
