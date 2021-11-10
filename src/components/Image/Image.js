@@ -1,5 +1,6 @@
 import React from "react";
 import "./image.css";
+import "animate.css";
 
 export default function Image(props) {
     let title = document.getElementById("title");
@@ -38,14 +39,20 @@ export default function Image(props) {
         imgcontainer.classList.replace("active-container", "hide-container");
     }
 
+    function addAnimations(id, reference) {
+        let imgblock = document.getElementById(id);
+        document.getElementById(reference).style.display = "flex";
+        imgblock.classList.add("animate__fadeInUp");
+    }
+
     return (
         <React.Fragment>
             <div className="img-container" id={props.reference}>
-                <div className="img-block" id={props.id}>
+                <div className="img-block animate__animated animate__faster" id={props.id}>
                     <div className="closeMenu" onClick={() => closeImage(props.id, props.reference)}>
                         <i className="fas fa-times-circle"></i>
                     </div>
-                    <img src={props.img} alt={props.id} onClick={() => fullscreenImage(props.id, props.reference)} />
+                    <img className="img-on-block" src={props.img} onLoad={() => addAnimations(props.id, props.reference)} alt={props.id} onClick={() => fullscreenImage(props.id, props.reference)} />
                     <ul>
                         <li>
                             <i className="fas fa-heart"></i>
