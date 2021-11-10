@@ -38,7 +38,7 @@ export default function Main() {
             <h1 id="title">Photo gallery</h1>
             <form id="form-search" onSubmit={submit}>
                 <input placeholder="Search a term" id="searchText" type="text" onChange={getInputValue}></input>
-                <button type="button" className="btn-style" onClick={handleSubmit}>
+                <button type="button" className="btn-style" onClick={submit}>
                     Search
                 </button>
             </form>
